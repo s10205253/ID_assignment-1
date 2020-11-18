@@ -35,7 +35,7 @@ nav {
 }
 .home-button {
     color: white;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     font-size: 2vw;
     text-decoration: none;
 }
@@ -63,11 +63,31 @@ nav {
 }
 .content-container {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     position: relative;
-    background-color: aquamarine;
+    background-color: #1B1B1B;
+    top: 300px;
+}
+.content-container > h1 {
+    position: absolute;
+    bottom: 110%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    color: white;
+}
+.content-container > p {
+    color: white;
+    margin-right: 5%;
+    margin-top: 5%;
+    flex: 1;
 }
 .content-img {
-    width: 35%;
+    max-width: 55%;
     height: auto;
+    margin: 5%;
     object-fit: contain;
+
 }
+
+
