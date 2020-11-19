@@ -5,6 +5,7 @@
 body {
     background-color: #1B1B1B;
 }
+/* Homepage */
 .logo-container {
     display: flex;
     background-color: blue;
@@ -89,5 +90,44 @@ nav {
     object-fit: contain;
 
 }
+/*---------- end of home page-----------------*/
+
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    background-color: #1B1B1B;
+    top: 300px;
+    height: 400px;
+}
+
+.intro-container > h1 {
+    position: absolute;
+    bottom: 130%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    color: white;
+}
+
+.intro-container > p {
+    color: white;
+    margin-right: 5%;
+    margin-top: 5%;
+    flex: 1;
+}
+/* note:
+need to try making the whole section a container then make the video and content
+seperate containers*/
+.transition-video {
+    width: 35%;
+    height: auto;
+    margin: 5%;
+    margin-bottom: 0;
+    flex: 1;
+}
+
 
 
