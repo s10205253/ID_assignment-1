@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #1B1B1B;
+    background-image: url(https://designshack.net/wp-content/uploads/best-subtle-black-white-background-textures.jpg);
 }
 /* Homepage */
 .logo-container {
@@ -41,10 +41,7 @@ nav {
     text-decoration: none;
 }
 .banner-container {
-    display: flex;
     position: relative;
-    flex-direction: column;
-    align-items: center;
 }
 .banner-img {
     width: 100%;
@@ -55,6 +52,7 @@ nav {
     position: absolute;
     background-color: #d03739;
     top: 90%;
+    left: 43%;
     color: white;
     font-family: 'Roboto', sans-serif;;
     font-size: 2vw;
@@ -92,42 +90,111 @@ nav {
 }
 /*---------- end of home page-----------------*/
 
-
-.intro-container {
+.super-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    height: 100%;
+    width: 100%;
+}
+.league-container1 {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
+    height: 100%;
     position: relative;
     background-color: #1B1B1B;
-    top: 300px;
-    height: 400px;
 }
 
-.intro-container > h1 {
+
+.league-container1 > h1 {
     position: absolute;
-    bottom: 130%;
+    bottom: 120%;
     font-family: 'Roboto', sans-serif;
     font-size: 3vw;
     color: white;
 }
 
-.intro-container > p {
+.content {
     color: white;
-    margin-right: 5%;
-    margin-top: 5%;
-    flex: 1;
-}
-/* note:
-need to try making the whole section a container then make the video and content
-seperate containers*/
-.transition-video {
-    width: 35%;
-    height: auto;
-    margin: 5%;
-    margin-bottom: 0;
+    margin: 3%;
+    margin-left: 0;
     flex: 1;
 }
 
-
-
+.video {
+    width: 45%;
+    height: 50vh;
+    margin: 3%;
+    flex: 1;
+}
+.video > iframe{
+    width: 100%;
+    height: 100%;
+}
+.league-container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #1B1B1B;
+    top: 200px;
+}
+.league-container2 > h1 {
+    position: absolute;
+    bottom: 110%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    color: white;
+}
+.league-container2 > h2 {
+    position: absolute;
+    top: 10px;
+    left: 70%;
+    color: white;
+}
+.content2 {
+    position: relative;
+    color: white;
+    width: 50%;
+    margin: 3%;
+    margin-left: 0;
+    flex: 1;
+    top: 55px;
+}
+.league-container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #1B1B1B;
+    top: 400px;
+}
+.league-container3 > h2 {
+    position: absolute;
+    top: 10px;
+    right: 65%;
+    color: white;
+}
+.league-container4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #1B1B1B;
+    top: 600px;
+}
+.league-container4 > h2 {
+    position: absolute;
+    top: 10px;
+    left: 65%;
+    color: white;
+}
