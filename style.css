@@ -36,7 +36,7 @@ nav {
 }
 .home-button {
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 2vw;
     text-decoration: none;
 }
@@ -54,7 +54,7 @@ nav {
     top: 90%;
     left: 43%;
     color: white;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Playfair Display', serif;
     font-size: 2vw;
     padding: 1%;
     border: 1px;
@@ -71,7 +71,7 @@ nav {
 .content-container > h1 {
     position: absolute;
     bottom: 110%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 3vw;
     color: white;
 }
@@ -112,7 +112,7 @@ nav {
 .league-container1 > h1 {
     position: absolute;
     bottom: 120%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 3vw;
     color: white;
 }
@@ -147,7 +147,7 @@ nav {
 .league-container2 > h1 {
     position: absolute;
     bottom: 110%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 3vw;
     color: white;
 }
