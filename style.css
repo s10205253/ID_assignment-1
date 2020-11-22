@@ -8,7 +8,6 @@ body {
 /* Homepage */
 .logo-container {
     display: flex;
-    background-color: blue;
 }
 .logo {
     display: flex;
@@ -36,7 +35,7 @@ nav {
 }
 .home-button {
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 2vw;
     text-decoration: none;
 }
@@ -54,7 +53,7 @@ nav {
     top: 90%;
     left: 43%;
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 2vw;
     padding: 1%;
     border: 1px;
@@ -66,12 +65,11 @@ nav {
     flex-wrap: wrap;
     position: relative;
     background-color: #1B1B1B;
-    top: 300px;
 }
 .content-container > h1 {
     position: absolute;
     bottom: 110%;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 3vw;
     color: white;
 }
@@ -84,12 +82,51 @@ nav {
 .content-img {
     max-width: 55%;
     height: auto;
-    margin: 5%;
+    margin: 3%;
     object-fit: contain;
 
 }
+.news-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #1B1B1B;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    
+}
+.news-container > h1 {
+    color: white;
+    flex: 1;
+}
+.news-items {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.news-item {
+    flex-basis: 25%;
+    min-width: 200px;
+    min-height: 200px;
+    text-align: center;
+    margin: 25px;
+}
+.news-item > img {
+    width: 100%;
+    height: 100%;
+}
+.news-item > h4 {
+    color: white;
+    font-size: 1.5vw;
+}
+
+
 /*---------- end of home page-----------------*/
 
+/*---------- League page-----------------*/
 .super-container {
     display: flex;
     flex-direction: column;
@@ -107,12 +144,10 @@ nav {
     position: relative;
     background-color: #1B1B1B;
 }
-
-
 .league-container1 > h1 {
     position: absolute;
     bottom: 120%;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 3vw;
     color: white;
 }
@@ -142,12 +177,12 @@ nav {
     height: 100%;
     position: relative;
     background-color: #1B1B1B;
-    top: 200px;
+    top: 400px;
 }
 .league-container2 > h1 {
     position: absolute;
-    bottom: 110%;
-    font-family: 'Playfair Display', serif;
+    bottom: 150%;
+    font-family: 'Bebas Neue', cursive;
     font-size: 3vw;
     color: white;
 }
@@ -174,7 +209,7 @@ nav {
     height: 100%;
     position: relative;
     background-color: #1B1B1B;
-    top: 400px;
+    top: 600px;
 }
 .league-container3 > h2 {
     position: absolute;
@@ -190,7 +225,7 @@ nav {
     height: 100%;
     position: relative;
     background-color: #1B1B1B;
-    top: 600px;
+    top: 800px;
 }
 .league-container4 > h2 {
     position: absolute;
@@ -198,3 +233,52 @@ nav {
     left: 65%;
     color: white;
 }
+/*---------- end of League page-----------------*/
+
+/*---------- store page-----------------*/
+.bestseller-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #808080;
+}
+.bestseller-container > h1 {
+    flex: 1;
+    font-size: 5vw;
+    color: black;
+}
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 3;
+    background-color: #808080;
+}
+.item {
+    flex-basis: 25%;
+    min-width: 200px;
+    text-align: center;
+    margin: 20px;
+}
+.item > img {
+    width: 100%;
+}
+.item > h4 {
+    color: black;
+    font-size: 2vw;
+}
+.item > p {
+    color: black;
+    font-size: 1vw;
+}
+.allitems-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #808080;
+    margin-top: 30px;
+}
+.allitems-container > h1 {
+    flex: 1;
+    font-size: 5vw;
+    color: black;
+}
+
