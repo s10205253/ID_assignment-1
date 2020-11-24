@@ -64,6 +64,13 @@ nav {
     border: 1px;
     border-style: solid;
 }
+.super-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
 .content-container {
     display: flex;
     justify-content: center;
@@ -102,6 +109,7 @@ nav {
 }
 .buttons-container {
     display: flex;
+    width: 50%;
     background-color: #1B1B1B;
     margin-top: 40px;
 }
@@ -110,23 +118,54 @@ nav {
     flex-direction: column;
     align-items: center;
     flex: 1;
+    background-color: #FF5349;
 }
 .button1 > h2 {
     flex: 2;
+    color: white;
     padding: 10px;
 }
 .button1 > h3 {
     flex: 1;
     padding: 10px;
 }
+
 .button2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex: 1;
+    background-color: #1B1B1B;
+}
+.button2 > h2 {
+    flex: 2;
+    color: white;
+    padding: 10px;
+}
+.button2 > h3 {
+    flex: 1;
+    padding: 10px;
+}
+.button1 > h3 > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+.button1 > h3 > a:hover {
+    background-color: #1B1B1B;
+}
+.button2 > h3 > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+.button2 > h3 > a:hover {
+    background-color: #FF5349;
 }
 .news-container {
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #1B1B1B;
@@ -139,11 +178,9 @@ nav {
 }
 .news-container > h1 {
     color: white;
-    flex: 1;
 }
 .news-items {
     display: flex;
-    flex: 3;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -162,26 +199,44 @@ nav {
     color: white;
     font-size: 1.5vw;
 }
-
-
+footer {
+    position: relative;
+    top: 400px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FF5349;
+}
+.socials-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1B1B;
+    text-align: center;
+}
+.socials-container > h1 {
+    color: white;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.socials-buttons {
+    margin: 10px;
+    max-width: 50px;
+}
+.socials-buttons > a > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
 /*---------- end of home page-----------------*/
 
 /*---------- League page-----------------*/
-.super-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    top: 300px;
-    height: 100%;
-    width: 100%;
-}
 .league-container1 {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    width: 100%;
     height: 100%;
     position: relative;
     background-color: #1B1B1B;
@@ -194,6 +249,7 @@ nav {
     bottom: 120%;
     font-family: 'Bebas Neue', cursive;
     font-size: 3vw;
+    text-align: center;
     color: white;
     background-color: #1B1B1B;
     padding: 40px;
@@ -225,7 +281,6 @@ nav {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    width: 100%;
     height: 100%;
     position: relative;
     background-color: #1B1B1B;
@@ -270,7 +325,6 @@ nav {
     justify-content: center;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
-    width: 100%;
     height: 100%;
     position: relative;
     background-color: #1B1B1B;
@@ -284,7 +338,6 @@ nav {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    width: 100%;
     height: 100%;
     position: relative;
     background-color: #1B1B1B;
@@ -339,7 +392,7 @@ nav {
     flex-basis: 25%;
     min-width: 200px;
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }
 .item > img {
     width: 100%;
