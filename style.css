@@ -4,7 +4,8 @@
 }
 body {
     background-image: url(https://designshack.net/wp-content/uploads/best-subtle-black-white-background-textures.jpg);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
 /* Homepage */
 .logo-container {
@@ -36,8 +37,9 @@ nav {
 }
 .nav-button {
     color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2vw;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
     text-decoration: none;
     transition: 0.5s ease;
 }
@@ -51,18 +53,6 @@ nav {
     width: 100%;
     height: auto;
     object-fit: contain;
-}
-.banner-container > h3 {
-    position: absolute;
-    background-color: #d03739;
-    top: 90%;
-    left: 43%;
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2vw;
-    padding: 1%;
-    border: 1px;
-    border-style: solid;
 }
 .super-container {
     display: flex;
@@ -84,7 +74,8 @@ nav {
 .content-container > h1 {
     position: absolute;
     bottom: 110%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
     font-size: 3vw;
     color: white;
     background-color: #1B1B1B;
@@ -170,11 +161,14 @@ nav {
     flex-direction: column;
     background-color: #1B1B1B;
     text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
     margin-top: 100px;
     padding-bottom: 50px;
     border-style: solid;
     border-width: 5px;
     border-color: #FF5349;
+    
 }
 .news-container > h1 {
     color: white;
@@ -207,6 +201,8 @@ footer {
     border-color: #FF5349;
 }
 .socials-container {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     background-color: #1B1B1B;
@@ -247,7 +243,8 @@ footer {
 .league-container1 > h1 {
     position: absolute;
     bottom: 120%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
     font-size: 3vw;
     text-align: center;
     color: white;
@@ -291,7 +288,8 @@ footer {
 }
 .league-container2 > h1 {
     position: absolute;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
     font-size: 3vw;
     bottom: 100%;
     margin-bottom: 50px;
@@ -316,7 +314,8 @@ footer {
 .content2 > h2 {
     position: relative;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
     color: white;
     bottom: 50px;
 }
@@ -373,48 +372,69 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #808080;
+    background-color: #1B1B1B;
     padding-bottom: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FF5349;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
 }
 .bestseller-container > h1 {
     flex: 1;
     font-size: 5vw;
-    color: black;
+    color: white;
+    margin: 30px;
+
 }
 .items-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex: 3;
-    background-color: #808080;
+    background-color: #1B1B1B;
+    
 }
 .item {
     flex-basis: 25%;
     min-width: 200px;
     text-align: center;
     margin: 30px;
+    border-style: solid;
+    background-color: #c8c6c6;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FF5349;
 }
 .item > img {
     width: 100%;
 }
 .item > h4 {
-    color: black;
+    color: #1B1B1B;
     font-size: 2vw;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
 }
 .item > p {
     color: black;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 .allitems-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: #808080;
+    background-color: #1B1B1B;
     margin-top: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FF5349;
 }
 .allitems-container > h1 {
     flex: 1;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
     font-size: 5vw;
-    color: black;
+    color: white;
+    margin: 30px;
 }
 
