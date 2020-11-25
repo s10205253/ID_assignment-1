@@ -5,7 +5,7 @@
 body {
     background-image: url(https://designshack.net/wp-content/uploads/best-subtle-black-white-background-textures.jpg);
     font-family: 'Oswald', sans-serif;
-    font-weight: 400;
+    font-size: 1em;
 }
 /* Homepage */
 .logo-container {
@@ -38,7 +38,6 @@ nav {
 .nav-button {
     color: white;
     font-family: 'Teko', sans-serif;
-    font-weight: 500;
     font-size: 2em;
     text-decoration: none;
     transition: 0.5s ease;
@@ -75,7 +74,6 @@ nav {
     position: absolute;
     bottom: 110%;
     font-family: 'Teko', sans-serif;
-    font-weight: 500;
     font-size: 3vw;
     color: white;
     background-color: #1B1B1B;
@@ -162,7 +160,6 @@ nav {
     background-color: #1B1B1B;
     text-align: center;
     font-family: 'Teko', sans-serif;
-    font-weight: 500;
     margin-top: 100px;
     padding-bottom: 50px;
     border-style: solid;
@@ -172,6 +169,7 @@ nav {
 }
 .news-container > h1 {
     color: white;
+    font-family: 'Teko', sans-serif;
 }
 .news-items {
     display: flex;
@@ -191,6 +189,7 @@ nav {
 }
 .news-item > h4 {
     color: white;
+    font-family: 'Teko', sans-serif;
     font-size: 1.5vw;
 }
 footer {
@@ -202,7 +201,6 @@ footer {
 }
 .socials-container {
     font-family: 'Teko', sans-serif;
-    font-weight: 500;
     display: flex;
     flex-direction: column;
     background-color: #1B1B1B;
@@ -244,8 +242,7 @@ footer {
     position: absolute;
     bottom: 120%;
     font-family: 'Teko', sans-serif;
-    font-weight: 500;
-    font-size: 3vw;
+    font-size: 3em;
     text-align: center;
     color: white;
     background-color: #1B1B1B;
@@ -257,9 +254,7 @@ footer {
 
 .content {
     color: white;
-    margin: 3%;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 20px;
     flex: 1;
 }
 
@@ -289,8 +284,7 @@ footer {
 .league-container2 > h1 {
     position: absolute;
     font-family: 'Teko', sans-serif;
-    font-weight: 500;
-    font-size: 3vw;
+    font-size: 3em;
     bottom: 100%;
     margin-bottom: 50px;
     color: white;
@@ -306,8 +300,6 @@ footer {
     color: white;
     width: 50%;
     margin: 20px;
-    margin-right: 0;
-    margin-left: 0;
     flex: 1;
     top: 55px;
 }
@@ -316,6 +308,7 @@ footer {
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-weight: 500;
+    font-size: 2.15em;
     color: white;
     bottom: 50px;
 }
@@ -345,6 +338,12 @@ footer {
     border-color: #FF5349;
     top: 700px;
 }
+@media (min-width: 1500px) {
+    .video {
+        min-height: 600px;
+    }
+}
+/*for mobile*/
 @media (max-width: 800px) {
     .video {
         max-height: 200px;
@@ -365,6 +364,7 @@ footer {
         font-size: 25px;
     }
 }
+
 /*---------- end of League page-----------------*/
 
 /*---------- store page-----------------*/
@@ -373,12 +373,11 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #1B1B1B;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     border-style: solid;
     border-width: 5px;
     border-color: #FF5349;
     font-family: 'Teko', sans-serif;
-    font-weight: 500;
 }
 .bestseller-container > h1 {
     flex: 1;
@@ -413,7 +412,6 @@ footer {
     color: #1B1B1B;
     font-size: 2vw;
     font-family: 'Teko', sans-serif;
-    font-weight: 500;
 }
 .item > p {
     color: black;
@@ -432,7 +430,6 @@ footer {
 .allitems-container > h1 {
     flex: 1;
     font-family: 'Teko', sans-serif;
-    font-weight: 500;
     font-size: 5vw;
     color: white;
     margin: 30px;
