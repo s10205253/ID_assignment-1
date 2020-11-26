@@ -5,7 +5,6 @@
 body {
     background-image: url(https://designshack.net/wp-content/uploads/best-subtle-black-white-background-textures.jpg);
     font-family: 'Oswald', sans-serif;
-    font-size: 1em;
 }
 /* Homepage */
 .logo-container {
@@ -16,7 +15,6 @@ body {
     width: 8%;
     background-color: #1B1B1B;
     justify-content: center;
-    align-items: center;
 }
 nav {
     flex: 2;
@@ -45,13 +43,9 @@ nav {
 .nav-button:hover {
     background-color: #FF5349;
 }
-.banner-container {
-    position: relative;
-}
 .banner-img {
     width: 100%;
     height: auto;
-    object-fit: contain;
 }
 .super-container {
     display: flex;
@@ -70,11 +64,11 @@ nav {
     border-width: 5px;
     border-color: #FF5349;
 }
-.content-container > h1 {
+.content-container > h2 {
     position: absolute;
     bottom: 110%;
     font-family: 'Teko', sans-serif;
-    font-size: 3vw;
+    font-size: 3em;
     color: white;
     background-color: #1B1B1B;
     padding: 40px;
@@ -84,22 +78,19 @@ nav {
 }
 .content-container > p {
     color: white;
+    font-size: 1.25em;
     margin-right: 5%;
     margin-top: 5%;
     flex: 1;
-    
 }
 .content-img {
-    max-width: 55%;
+    width: 55%;
     height: auto;
     margin: 3%;
-    object-fit: contain;
-
 }
 .buttons-container {
     display: flex;
     width: 50%;
-    background-color: #1B1B1B;
     margin-top: 40px;
 }
 .button1 {
@@ -165,11 +156,11 @@ nav {
     border-style: solid;
     border-width: 5px;
     border-color: #FF5349;
-    
 }
-.news-container > h1 {
+.news-container > h2 {
     color: white;
     font-family: 'Teko', sans-serif;
+    font-size: 3em;
 }
 .news-items {
     display: flex;
@@ -190,11 +181,34 @@ nav {
 .news-item > h4 {
     color: white;
     font-family: 'Teko', sans-serif;
-    font-size: 1.5vw;
+    font-weight: 500;
+    font-size: 1.35em;
 }
-footer {
+@media (max-width: 800px) {
+    .content-img {
+        width: 90%;
+    }
+    .content-container > p {
+        margin: 15px;
+    }
+}
+#footer1 {
     position: relative;
     top: 400px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FF5349;
+}
+#footer2 {
+    position: relative;
+    top: 1100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FF5349;
+}
+#footer3 {
+    position: relative;
+    top: 120px;
     border-style: solid;
     border-width: 5px;
     border-color: #FF5349;
@@ -229,7 +243,6 @@ footer {
 .league-container1 {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap-reverse;
     height: 100%;
     position: relative;
@@ -238,11 +251,11 @@ footer {
     border-width: 5px;
     border-color: #FF5349;    
 }
-.league-container1 > h1 {
+.league-container1 > h2 {
     position: absolute;
-    bottom: 120%;
+    bottom: 110%;
     font-family: 'Teko', sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     color: white;
     background-color: #1B1B1B;
@@ -251,13 +264,12 @@ footer {
     border-width: 5px;
     border-color: #FF5349; 
 }
-
 .content {
+    font-size: 1.25em;
     color: white;
     margin: 20px;
     flex: 1;
 }
-
 .video {
     min-width: 400px;
     min-height: 400px;
@@ -267,6 +279,7 @@ footer {
 .video > iframe{
     width: 100%;
     height: 100%;
+    border: 0;
 }
 .league-container2 {
     display: flex;
@@ -281,10 +294,10 @@ footer {
     border-color: #FF5349;
     top: 300px;
 }
-.league-container2 > h1 {
+.league-container2 > h2 {
     position: absolute;
     font-family: 'Teko', sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     bottom: 100%;
     margin-bottom: 50px;
     color: white;
@@ -296,6 +309,7 @@ footer {
     border-color: #FF5349;
 }
 .content2 {
+    font-size: 1.25em;
     position: relative;
     color: white;
     width: 50%;
@@ -357,11 +371,11 @@ footer {
         margin: 30px;
         margin-bottom: 40px;
     }
-    .league-container1 > h1 {
-        font-size: 25px;
+    .league-container1 > h2 {
+        font-size: 3em;
     }
-    .league-container2 > h1 {
-        font-size: 25px;
+    .league-container2 > h2 {
+        font-size: 3em;
     }
 }
 
@@ -379,20 +393,17 @@ footer {
     border-color: #FF5349;
     font-family: 'Teko', sans-serif;
 }
-.bestseller-container > h1 {
+.bestseller-container > h2 {
     flex: 1;
-    font-size: 5vw;
+    font-size: 4em;
     color: white;
     margin: 30px;
-
 }
 .items-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex: 3;
     background-color: #1B1B1B;
-    
 }
 .item {
     flex-basis: 25%;
@@ -410,12 +421,12 @@ footer {
 }
 .item > h4 {
     color: #1B1B1B;
-    font-size: 2vw;
+    font-size: 2em;
     font-family: 'Teko', sans-serif;
 }
 .item > p {
     color: black;
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 .allitems-container {
     display: flex;
@@ -426,12 +437,31 @@ footer {
     border-style: solid;
     border-width: 5px;
     border-color: #FF5349;
+    font-family: 'Teko', sans-serif;
 }
-.allitems-container > h1 {
+.allitems-container > h2 {
     flex: 1;
     font-family: 'Teko', sans-serif;
-    font-size: 5vw;
+    font-size: 4em;
     color: white;
     margin: 30px;
 }
-
+.purchase-button {
+    padding: 15px;
+    margin: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.purchase-button:hover {
+    background-color: #FF5349;
+}
+@media (max-width: 800px) {
+    .purchase-button{
+        padding: 4px;
+    }
+}
+@media (min-width: 1200px) {
+    .bestseller-container {
+        padding-bottom: 11vw
+    }
+}
