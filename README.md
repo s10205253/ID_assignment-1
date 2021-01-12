@@ -56,6 +56,6 @@ https://youtu.be/BGtROJeMPeE
 * https://youtu.be/b-krYWQMU8I
 * https://youtu.be/j5QahFFHv0I
 
-Info used:
-https://goosesmurfs.com/league-player-count/#:~:text=With%20115%20million%20people%20playing,years%20since%20its%20initial%20launch!
-https://thesportsrush.com/lol-esports-news-league-of-legends-world-prize-pool-2020-how-is-the-lol-worlds-prize-pool-distributed/
+# Info used:
+* https://goosesmurfs.com/league-player-count/#:~:text=With%20115%20million%20people%20playing,years%20since%20its%20initial%20launch!
+* https://thesportsrush.com/lol-esports-news-league-of-legends-world-prize-pool-2020-how-is-the-lol-worlds-prize-pool-distributed/
