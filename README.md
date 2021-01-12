@@ -33,20 +33,21 @@ https://nexus.leagueoflegends.com/wp-content/uploads/2019/10/LOL_CMS_317_Tile_01
 https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6921c7fcf379895c/5f7e3beaf11ee70e9e14e7a2/ser450kb.jpg
 ### Latest news img 2
 https://notagamer.net/wp-content/uploads/2020/11/hopeful-announcement-about-preseason-2021-new-items-saviors-of-marksmans-role-1024x576-1605062734463362415779.jpg
+### latest news img 3
+https://specials-images.forbesimg.com/imageserve/5f998846037def76c3e3328a/960x0.jpg?fit=scale
 ### Facebook Icon
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconsdb.com%2Fblack-icons%2Ffacebook-2-icon.html&psig=AOvVaw0D7jYGCeUBc8p0OTqW4PP8&ust=1606489734316000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiRxsrOoe0CFQAAAAAdAAAAABAD
 ### Youtube Icon
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Frevydubz%2Fart%2FYoutube-Logo-Black-796409255&psig=AOvVaw0oqk4Ef-EMQHBSZkOiF0BF&ust=1606560617707000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCWoffGou0CFQAAAAAdAAAAABAD
 ### Instagram Icon
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc6%2F2c%2F05%2Fc62c055ede6aadbb1f94a555071c98b9.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F642466703073387517%2F&tbnid=fwoSEM1Z5iRHZM&vet=12ahUKEwiVvYjivqDtAhVV8DgGHdnZAxkQMygBegUIARDFAQ..i&docid=Rtk8vCaK0aSMSM&w=1920&h=1440&q=black%20instagram%20logo&ved=2ahUKEwiVvYjivqDtAhVV8DgGHdnZAxkQMygBegUIARDFAQ
-### Riot Logo
+### store jacket 1
 https://images.contentstack.io/v3/assets/blt5bbf09732528de36/blta2d6ae99659e5cdf/5f59465d87c5245a2e787952/2018-09-07_2000_17_14.725_riot-games-2017-12-44054.png?auto=webp&width=229&quality=85
-### Riot Logo
+### store jacket 2
 https://images.contentstack.io/v3/assets/blt5bbf09732528de36/blt26f03ae899199310/5f598e32af9eaf2e75396153/2018-09-07_2000_03_10.727_lolhoodie_unisex_1_.png?auto=webp&width=229&quality=85
-### Riot Logo
+### store jacket 3
 https://images.contentstack.io/v3/assets/blt5bbf09732528de36/bltacdb063abcfc1076/5f59467a572b123c0e09327b/2018-09-07_2000_17_53.931_snowdown_snowday_gnar_1_.png?auto=webp&width=229&quality=85
-### Riot Logo
-https://specials-images.forbesimg.com/imageserve/5f998846037def76c3e3328a/960x0.jpg?fit=scale
+
 
 # videos used:
 ### what is league
